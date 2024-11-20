@@ -25,17 +25,17 @@ public final class Constants {
   //swerve druve constants
   //module 0 constants (front right)
   public static class mod0 {
+    public static final int drive_motor_id = 54;
+    public static final int turn_motor_id = 58;
+    public static final int can_coder = 5;
+    public static final Rotation2d turning_offset = Rotation2d.fromDegrees(67.3);
+  }
+  //module 1 constants (back right)
+  public static class mod1 {
     public static final int drive_motor_id = 36;
     public static final int turn_motor_id = 52;
     public static final int can_coder = 6;
     public static final Rotation2d turning_offset = Rotation2d.fromDegrees(271.2);
-  }
-  //module 1 constants (back right)
-  public static class mod1 {
-    public static final int drive_motor_id = 59;
-    public static final int turn_motor_id = 55;
-    public static final int can_coder = 7;
-    public static final Rotation2d turning_offset = Rotation2d.fromDegrees(226.0);
   }
   //module 2 constants (back left)
   public static class mod2 {
@@ -46,10 +46,10 @@ public final class Constants {
   }
   //module 3 constants (front left)
   public static class mod3 {
-    public static final int drive_motor_id = 54;
-    public static final int turn_motor_id = 58;
-    public static final int can_coder = 5;
-    public static final Rotation2d turning_offset = Rotation2d.fromDegrees(67.3);
+    public static final int drive_motor_id = 59;
+    public static final int turn_motor_id = 55;
+    public static final int can_coder = 7;
+    public static final Rotation2d turning_offset = Rotation2d.fromDegrees(226.0);
   }
 
 
